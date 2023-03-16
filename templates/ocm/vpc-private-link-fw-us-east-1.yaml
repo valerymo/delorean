@@ -78,17 +78,17 @@ Parameters:
   AvailabilityZone1Selection:
     Description: Availability Zone 1
     Type: AWS::EC2::AvailabilityZone::Name
-    Default: us-east-1c
+    Default: us-east-2c
 
   AvailabilityZone2Selection:
     Description: Availability Zone 2
     Type: AWS::EC2::AvailabilityZone::Name
-    Default: us-east-1b
+    Default: us-east-2b
 
   AvailabilityZone3Selection:
     Description: Availability Zone 3
     Type: AWS::EC2::AvailabilityZone::Name
-    Default: us-east-1a
+    Default: us-east-2a
 
   LatestAmiId:
     Description: Latest EC2 AMI from Systems Manager Parameter Store
